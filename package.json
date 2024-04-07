@@ -1,0 +1,20 @@
+{
+  "name": "met-museum-visualiser",
+  "version": "1.0.0",
+  "description": "Visualiser of art objects from Metropolitan Museum of Art, NY",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "art"
+  ],
+  "author": "Jorge F",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2"
+  }
+}
