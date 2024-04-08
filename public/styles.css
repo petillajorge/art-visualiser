@@ -48,11 +48,12 @@ body, html {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
   }
   
   .description-card h3 {
     margin-top: 0;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   
   .description-card p {
