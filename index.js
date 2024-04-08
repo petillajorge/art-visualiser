@@ -34,6 +34,7 @@ app.get("/", async (req,res) => {
             artCountry: randomArt.data.country,
             artLink: randomArt.data.objectURL,
             artImage: randomArt.data.primaryImage,
+            artImageSmall: randomArt.data.primaryImageSmall,
         });
     } catch(error) {
         //console.log(error);

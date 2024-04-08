@@ -8,15 +8,16 @@
 			<link rel="icon" type="image" href="/images/logo.jpg">
 	</head>
 	<body>
-		<main>
-			<div class="art">
-				<img src="<%= artImage %>">
+		<main class="container">
+			<img src="<%= artImageSmall %>" id="background-image" alt="Random Background Image">
+			<div class="art-card">
+				<img src="<%= artImage %>" alt="Random MET art" draggable=true>
 			</div>
-			<div class="info">
-				<%= title %>
-				<%= artist %>
-				<%= artDate %>
-				<%= artCountry %>
+			<div class="description-card">
+				<h3><%= title %></h3>
+				<p><%= artist %></p>
+				<p><%= artDate %></p>
+				<p><%= artCountry %></p>
 				<a><%= artLink %></a>
 			</div>
 			<div class="newArt">
